@@ -23,6 +23,12 @@ public class Wallet {
     public Wallet() {
     }
 
+    public Wallet(Long walletId, BigDecimal balance, User user) {
+        this.walletId = walletId;
+        this.balance = balance;
+        this.user = user;
+    }
+
     public Long getWalletId() {
         return walletId;
     }

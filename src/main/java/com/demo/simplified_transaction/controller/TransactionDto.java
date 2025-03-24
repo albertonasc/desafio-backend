@@ -1,4 +1,4 @@
-package com.demo.simplified_transaction.controller.dto;
+package com.demo.simplified_transaction.controller;
 
 import java.math.BigDecimal;
 

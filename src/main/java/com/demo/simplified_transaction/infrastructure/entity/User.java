@@ -31,6 +31,16 @@ public class User {
     public User() {
     }
 
+    public User(Long userId, String fullName, String email, String cpfCnpj, String password, Wallet wallet, UserType userType) {
+        this.userId = userId;
+        this.fullName = fullName;
+        this.email = email;
+        this.cpfCnpj = cpfCnpj;
+        this.password = password;
+        this.wallet = wallet;
+        this.userType = userType;
+    }
+
     public Long getUserId() {
         return userId;
     }

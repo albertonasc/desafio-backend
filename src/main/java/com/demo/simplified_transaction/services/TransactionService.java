@@ -1,6 +1,6 @@
 package com.demo.simplified_transaction.services;
 
-import com.demo.simplified_transaction.controller.dto.TransactionDto;
+import com.demo.simplified_transaction.controller.TransactionDto;
 import com.demo.simplified_transaction.infrastructure.entity.Transaction;
 import com.demo.simplified_transaction.infrastructure.entity.User;
 import com.demo.simplified_transaction.infrastructure.entity.UserType;
